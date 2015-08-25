@@ -1,0 +1,11 @@
+<h3>Here are all the tasks in $category.getName():</h3>
+
+<ul>
+#foreach($task in $tasks
+ <h3>$task.getDescription()</a></h3>
+#end
+  </ul>
+
+<p><a href="/categories/$category.getId()/tasks/new">Add a new task</a></p>
+>p><a href="/">Return to Main Page</a></p>
+<p><a href="/categories/$category.getId()/cleartasks">Clear all tasks</a></p>

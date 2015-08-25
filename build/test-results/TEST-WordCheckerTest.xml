@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="WordCheckerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2015-08-25T00:16:52" hostname="epicodus-102.local" time="0.001">
+<testsuite name="WordCheckerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2015-08-25T18:12:39" hostname="epicodus-114.local" time="0.003">
   <properties/>
-  <testcase name="getChanged_ReturnsnumberOfRepeatedWordsRegardlessOfCase_2" classname="WordCheckerTest" time="0.001"/>
+  <testcase name="getChanged_ReturnsnumberOfRepeatedWordsRegardlessOfCase_2" classname="WordCheckerTest" time="0.003"/>
   <testcase name="getChanged_ReturnsnumberOfRepeatedWords_2" classname="WordCheckerTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

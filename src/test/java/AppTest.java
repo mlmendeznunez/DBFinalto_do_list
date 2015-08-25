@@ -15,6 +15,25 @@ public class AppTest extends FluentTest{
   @ClassRule
   public static ServerRule server = new ServerRule();
 
-
-
+  // @Test
+  // public void categoryIsDisplayedTest() {
+  //   Category myCategory = new Category("Chores");
+  //   String categoryPath = String.format("http://localhost:4567/categories/%d", myCategory.getId());
+  //   goTo(categoryPath);
+  //   assertThat(pageSource()).contains("Chores");
+  // }
+  //
+  // // @Test
+  // public void allTasksDisplayDescriptionOnCategoryPage() {
+  //   Category myCategory = new Category("Chores");
+  //   myCategory.save();
+  //   Task firstTask = new Task("Mow the lawn", myCategory.getId());
+  //   firstTask.save();
+  //   Task secondTask = new Task("Do the dishes", myCategory.getId());
+  //   secondTask.save();
+  //   String categoryPath = String.format("http://localhost:4567/categories/new/%d", myCategory.getId());
+  //   goTo(categoryPath);
+  //   assertThat(pageSource()).contains("Mow the lawn");
+  //   assertThat(pageSource()).contains("Do the dishes");
+  //   }
 }
